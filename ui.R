@@ -32,6 +32,3 @@ shinyUI(
         )
     )
 )
-
-logit_table <- read.csv("logit.csv")
-logit_table$percent <-100* logit_table$prob
